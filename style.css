@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(77, 61, 34);
+}
+#btnAddFolder{
+    display: block;
+    border-radius: 5px;
+    background-color: azure;
+    width: 8rem;
+    height: 4rem;
+    margin: auto;
+    cursor: pointer;
+}
+#btnAddFolder:hover{
+    transform: scale(1.02);
+}
+#divContainer{
+    margin-top: 2rem;
+    border: 2px solid black;
+    display: flex;
+}
+.folder{
+    background-color: rgb(250, 197, 128);
+    border-radius: 5px;;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    overflow-wrap: break-word;
+}
+span[action=edit]{
+    background-color: rgb(42, 177, 42);
+    color: rgb(255, 255, 255);
+    padding-right: 4.5px;
+    padding-bottom: 3px;
+    padding-left: 4.5px;
+    border-radius: 50%;
+    float: right;
+    cursor: pointer;
+    margin-right: 2px;
+}
+
+span[action=delete]{
+    background-color: rgb(231, 38, 38);
+    color: rgb(255, 255, 255);
+    padding-right: 4.5px;
+    padding-bottom: 3px;
+    padding-left: 4.5px;
+    border-radius: 50%;
+    float: right;
+    cursor: pointer;
+}
+div[purpose=name]{
+    text-align: center;
+}
